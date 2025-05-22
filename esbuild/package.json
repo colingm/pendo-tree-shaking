@@ -1,0 +1,17 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "esbuild pendo-agent.mjs --bundle --minify --tree-shaking=true --outfile=pendo-agent.js"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pendo/agent": "2.276.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.4"
+  }
+}
